@@ -2,57 +2,64 @@ import requests
 import json
 import xml.etree.ElementTree as ET
 import os
-import re
 from datetime import datetime
 
+# 保持乾淨的請求標頭，確保與你之前成功抓取時的環境一致
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
+
 def get_f1_standings():
-    # 改用 2026 年維護中最穩定的動態 F1 數據源
-    url = "https://raw.githubusercontent.com/brocland/f1-historical-data/main/current_season/driver_standings.json"
+    # 使用 current 端點，在 2026 年會自動動態指向 2026 賽季的即時真實積分
+    url = "https://api.jolpica.io/ergast/f1/current/driverStandings.json"
     try:
-        res = requests.get(url, timeout=8)
+        res = requests.get(url, headers=HEADERS, timeout=10)
         if res.status_code == 200:
             data = res.json()
-            return [{
-                "pos": str(i+1),
-                "driver": d['driver_name'],
-                "points": str(d['points']),
-                "team": d['team_name']
-            } for i, d in enumerate(data[:15])]
-    except:
-        pass
-    
-    # 應急替代源
-    return [
-        {"pos": "1", "driver": "Max Verstappen", "points": "158", "team": "Red Bull Racing"},
-        {"pos": "2", "driver": "Lando Norris", "points": "145", "team": "McLaren"},
-        {"pos": "3", "driver": "Charles Leclerc", "points": "132", "team": "Ferrari"},
-        {"pos": "4", "driver": "Oscar Piastri", "points": "118", "team": "McLaren"},
-        {"pos": "5", "driver": "Lewis Hamilton", "points": "92", "team": "Ferrari"}
-    ]
+            standings_lists = data['MRData']['StandingsTable']['StandingsLists']
+            if standings_lists:
+                return [{
+                    "pos": str(d['position']),
+                    "driver": f"{d['Driver']['givenName']} {d['Driver']['familyName']}",
+                    "points": str(d['points']),
+                    "team": d['Constructors'][0]['name'] if d['Constructors'] else "Independent"
+                } for d in standings_lists[0]['DriverStandings'][:15]]
+    except Exception as e:
+        print(f"F1 API Error: {e}")
+    return [] # 抓不到就誠實回傳空，交由前端處理
 
 def get_motogp_standings():
-    # 使用 2026 最新文字流解析，防止 API 阻擋
+    # 還原你先前成功的 2026 實時數據流端點
     url = "https://raw.githubusercontent.com/sportdata/motogp-data/main/2026/standings.json"
     try:
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-        res = requests.get(url, headers=headers, timeout=8)
+        res = requests.get(url, headers=HEADERS, timeout=10)
         if res.status_code == 200:
-            return [{"pos": str(i+1), "driver": d['driver'], "points": str(d['points']), "team": d['team']} for i, d in enumerate(res.json()[:15])]
-    except:
-        pass
-    return [
-        {"pos": "1", "driver": "Marc Marquez", "points": "185", "team": "Gresini Racing"},
-        {"pos": "2", "driver": "Francesco Bagnaia", "points": "180", "team": "Ducati Lenovo Team"},
-        {"pos": "3", "driver": "Jorge Martin", "points": "165", "team": "Pramac Yamaha"}
-    ]
+            return [{
+                "pos": str(i+1), 
+                "driver": d['driver'], 
+                "points": str(d['points']), 
+                "team": d['team']
+            } for i, d in enumerate(res.json()[:15])]
+    except Exception as e:
+        print(f"MotoGP API Error: {e}")
+    return []
 
 def get_wec_standings():
-    # 2026 WEC 備用靜態與實時混合節點
-    return [
-        {"pos": "1", "driver": "K. Kobayashi / N. de Vries", "points": "115", "team": "Toyota Gazoo Racing"},
-        {"pos": "2", "driver": "L. Vanthoor / K. Estre", "points": "112", "team": "Porsche Penske Motorsport"},
-        {"pos": "3", "driver": "A. Pier Guidi / A. Giovinazzi", "points": "98", "team": "Ferrari AF Corse"}
-    ]
+    # 還原 WEC 官方 2026 賽季 Hypercar 組別即時積分 API
+    url = "https://fiawec.com/api/season/2026/standings"
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        if res.status_code == 200:
+            hypercar = [d for d in res.json() if d.get('category') == 'Hypercar']
+            return [{
+                "pos": str(i+1), 
+                "driver": d['drivers'], 
+                "points": str(d['points']), 
+                "team": d['team']
+            } for i, d in enumerate(hypercar[:15])]
+    except Exception as e:
+        print(f"WEC API Error: {e}")
+    return []
 
 def get_all_news():
     url = "https://www.autosport.com/rss/f1/news/"
@@ -68,8 +75,9 @@ def get_all_news():
             elif "WEC" in title or "Hypercar" in title or "Le Mans" in title: category = "WEC"
             news_list.append({"title": title, "link": item.find('link').text, "category": category})
         return news_list
-    except:
-        return [{"title": "賽事動態實時更新中", "link": "#", "category": "綜合"}]
+    except Exception as e:
+        print(f"News RSS Error: {e}")
+    return []
 
 if __name__ == "__main__":
     if not os.path.exists('public'):
@@ -85,3 +93,4 @@ if __name__ == "__main__":
     
     with open('public/data.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+    print("data.json 更新成功，已剔除所有靜態快取假數據。")
