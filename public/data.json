@@ -35,10 +35,90 @@
             "driver": "George Russell",
             "points": "88",
             "team": "Mercedes"
+        },
+        {
+            "pos": "7",
+            "driver": "Carlos Sainz",
+            "points": "80",
+            "team": "Williams"
+        },
+        {
+            "pos": "8",
+            "driver": "Kimi Antonelli",
+            "points": "54",
+            "team": "Mercedes"
+        },
+        {
+            "pos": "9",
+            "driver": "Pierre Gasly",
+            "points": "32",
+            "team": "Alpine"
+        },
+        {
+            "pos": "10",
+            "driver": "Liam Lawson",
+            "points": "28",
+            "team": "Racing Bulls"
         }
     ],
-    "motogp_standings": [],
-    "wec_standings": [],
+    "motogp_standings": [
+        {
+            "pos": "1",
+            "driver": "Marc Marquez",
+            "points": "185",
+            "team": "Gresini Racing"
+        },
+        {
+            "pos": "2",
+            "driver": "Francesco Bagnaia",
+            "points": "180",
+            "team": "Ducati Lenovo Team"
+        },
+        {
+            "pos": "3",
+            "driver": "Jorge Martin",
+            "points": "165",
+            "team": "Pramac Yamaha"
+        },
+        {
+            "pos": "4",
+            "driver": "Enea Bastianini",
+            "points": "142",
+            "team": "Ducati Lenovo Team"
+        },
+        {
+            "pos": "5",
+            "driver": "Pedro Acosta",
+            "points": "110",
+            "team": "Red Bull KTM Factory"
+        }
+    ],
+    "wec_standings": [
+        {
+            "pos": "1",
+            "driver": "K. Kobayashi / N. de Vries",
+            "points": "115",
+            "team": "Toyota Gazoo Racing"
+        },
+        {
+            "pos": "2",
+            "driver": "L. Vanthoor / K. Estre",
+            "points": "112",
+            "team": "Porsche Penske"
+        },
+        {
+            "pos": "3",
+            "driver": "A. Pier Guidi / A. Giovinazzi",
+            "points": "98",
+            "team": "Ferrari AF Corse"
+        },
+        {
+            "pos": "4",
+            "driver": "Oliver Rasmussen / Phil Hanson",
+            "points": "84",
+            "team": "Hertz Team JOTA"
+        }
+    ],
     "news": [
         {
             "title": "Audi calls for F1 ADUO rethink amid exploit fears",
