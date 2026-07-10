@@ -23,14 +23,14 @@ jobs:
     - name: Run crawler
       run: python fetch_data.py
 
-   - name: Commit and push if changed
+    - name: Commit and push if changed
       run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-        git add public/data.json
-        # 如果沒有檔案變更就直接結束
-        git diff --quiet && git diff --staged --quiet || (
-          git commit -m "Update daily racing data"
-          git pull --rebase origin main  # 推送前先強制與遠端最新的程式碼合併
-          git push origin main
-        )
+         git config --global user.name "GitHub Action"
+         git config --global user.email "action@github.com"
+         git add public/data.json
+         # 如果沒有檔案變更就直接結束
+         git diff --quiet && git diff --staged --quiet || (
+           git commit -m "Update daily racing data"
+           git pull --rebase origin main  # 推送前先強制與遠端最新的程式碼合併
+           git push origin main
+         )
