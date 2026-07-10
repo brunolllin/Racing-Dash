@@ -171,22 +171,29 @@
             const table = document.getElementById(tableId);
             if (!table) return;
             
-            // 核心修正：如果後端 JSON 丟過來的是空資料，前端直接拿出預設的 2026 真實數據渲染，絕對不留白！
-            let safeList = (dataList && dataList.length > 0) ? dataList : fallbackData[seriesKey];
+            // 1. 每次渲染前強制清空，徹底解決「重複顯示」的問題
+            table.innerHTML = ""; 
             
-            table.innerHTML = "";
+            // 2. 誠實檢查：如果後端真的沒抓到，就顯示找不到，絕不瞎編假資料
+            if (!dataList || dataList.length === 0) {
+                table.innerHTML = `<tr><td colspan="5" style="text-align:center; color:var(--text-muted); padding:40px;">⚠️ 暫無最新賽季實時數據</td></tr>`;
+                return;
+            }
+            
             const getPosClass = p => p <= 3 ? `pos-${p}` : '';
             
-            safeList.forEach(d => {
-                let pos = d.pos || "1";
-                let driver = d.driver || "Unknown Driver";
+            // 3. 精準建立 DOM 結構，防止非同步載入時順序錯亂
+            let rowsHtml = "";
+            dataList.forEach(d => {
+                let pos = d.pos || "-";
+                let driver = d.driver || "Unknown";
                 let teamName = d.team || "Independent";
                 let points = d.points || "0";
-
+        
                 let conf = findTeamConfig(seriesKey, teamName, driver);
                 let supplierSpan = conf.supplier ? `<span class="supplier-tag">${conf.supplier}</span>` : '';
                 
-                table.innerHTML += `
+                rowsHtml += `
                     <tr>
                         <td class="team-color-strip"><div class="color-indicator" style="background:${conf.color};"></div></td>
                         <td class="${getPosClass(parseInt(pos))}">${pos}</td>
@@ -199,6 +206,9 @@
                         <td><b>${points}</b></td>
                     </tr>`;
             });
+            
+            // 一次性寫入，確保瀏覽器渲染效能且絕不疊加
+            table.innerHTML = rowsHtml;
         }
 
         fetch('data.json?v=' + Math.random())
