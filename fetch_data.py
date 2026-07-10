@@ -5,10 +5,8 @@ import os
 from datetime import datetime
 
 def get_f1_standings():
-    # 採用 2026 實時動態 Ergast 鏡像維護節點，自動指定 2026 賽季
-    current_year = "2026"
-    url = f"https://ergast.com/api/f1/{current_year}/driverStandings.json"
-    
+    # Ergast 停用後，2026 年必須改用 Jolpica 代替端點以獲取即時動態積分
+    url = "https://api.jolpica.io/ergast/f1/2026/driverStandings.json"
     try:
         res = requests.get(url, timeout=10)
         if res.status_code == 200:
@@ -16,61 +14,40 @@ def get_f1_standings():
             standings_lists = data['MRData']['StandingsTable']['StandingsLists']
             if standings_lists:
                 standings = standings_lists[0]['DriverStandings']
-                result = []
-                for d in standings[:15]:
-                    # 確保抓到乾淨的車手名字、車隊與當前最新積分
-                    driver_name = f"{d['Driver']['givenName']} {d['Driver']['familyName']}"
-                    team_name = d['Constructors'][0]['name'] if d['Constructors'] else "Independent"
-                    result.append({
-                        "pos": str(d['position']),
-                        "driver": driver_name,
-                        "points": str(d['points']),
-                        "team": team_name
-                    })
-                return result
+                return [{
+                    "pos": str(d['position']),
+                    "driver": f"{d['Driver']['givenName']} {d['Driver']['familyName']}",
+                    "points": str(d['points']),
+                    "team": d['Constructors'][0]['name'] if d['Constructors'] else "Independent"
+                } for d in standings[:15]]
     except Exception as e:
-        print(f"F1 實時 API 抓取失敗: {e}")
-    
-    # 備用官方數據源節點 (OpenF1 鏡像)
-    try:
-        res = requests.get("https://api.openf1.org/v1/pit", timeout=5) # 測試節點存活
-        # 如果主 API 真的掛了，這裡會由下一動的前端動態保險處理
-    except:
-        pass
-        
+        print(f"F1 實時 API 請求失敗: {e}")
     return []
 
 def get_motogp_standings():
-    # MotoGP 官方實時 API 節點
-    url = "https:// motorsport-api.motogp.com/v1/results/standings?season=2026&category=MotoGP"
-    # 由於 MotoGP 官方 API 有時需要 Token 阻擋，改用最穩定的即時維護維基開源數據源
-    url_backup = "https://raw.githubusercontent.com/sportdata/motogp-data/main/2026/standings.json"
-    
+    # 使用 2026 即時維護的開源賽事節點
+    url = "https://raw.githubusercontent.com/sportdata/motogp-data/main/2026/standings.json"
     try:
-        res = requests.get(url_backup, timeout=8)
+        res = requests.get(url, timeout=8)
         if res.status_code == 200:
-            data = res.json()
-            return [{"pos": str(i+1), "driver": d['driver'], "points": str(d['points']), "team": d['team']} for i, d in enumerate(data[:15])]
+            return [{"pos": str(i+1), "driver": d['driver'], "points": str(d['points']), "team": d['team']} for i, d in enumerate(res.json()[:15])]
     except:
         pass
     return []
 
 def get_wec_standings():
-    # WEC 2026 實時積分源
+    # 2026 WEC Hypercar 實時動態源
     url = "https://fiawec.com/api/season/2026/standings"
     try:
         res = requests.get(url, timeout=8)
         if res.status_code == 200:
-            data = res.json()
-            # 依據 WEC 官方 JSON 結構解析 Hypercar 組別
-            hypercar = [d for d in data if d.get('category') == 'Hypercar']
+            hypercar = [d for d in res.json() if d.get('category') == 'Hypercar']
             return [{"pos": str(i+1), "driver": d['drivers'], "points": str(d['points']), "team": d['team']} for i, d in enumerate(hypercar[:15])]
     except:
         pass
     return []
 
 def get_all_news():
-    # 保持實時新聞 RSS 抓取
     url = "https://www.autosport.com/rss/f1/news/"
     try:
         res = requests.get(url, timeout=10)
