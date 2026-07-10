@@ -1,124 +1,7 @@
 {
-    "f1_standings": [
-        {
-            "pos": "1",
-            "driver": "Max Verstappen",
-            "points": "158",
-            "team": "Red Bull Racing"
-        },
-        {
-            "pos": "2",
-            "driver": "Lando Norris",
-            "points": "145",
-            "team": "McLaren"
-        },
-        {
-            "pos": "3",
-            "driver": "Charles Leclerc",
-            "points": "132",
-            "team": "Ferrari"
-        },
-        {
-            "pos": "4",
-            "driver": "Oscar Piastri",
-            "points": "118",
-            "team": "McLaren"
-        },
-        {
-            "pos": "5",
-            "driver": "Lewis Hamilton",
-            "points": "92",
-            "team": "Ferrari"
-        },
-        {
-            "pos": "6",
-            "driver": "George Russell",
-            "points": "88",
-            "team": "Mercedes"
-        },
-        {
-            "pos": "7",
-            "driver": "Carlos Sainz",
-            "points": "80",
-            "team": "Williams"
-        },
-        {
-            "pos": "8",
-            "driver": "Kimi Antonelli",
-            "points": "54",
-            "team": "Mercedes"
-        },
-        {
-            "pos": "9",
-            "driver": "Pierre Gasly",
-            "points": "32",
-            "team": "Alpine"
-        },
-        {
-            "pos": "10",
-            "driver": "Liam Lawson",
-            "points": "28",
-            "team": "Racing Bulls"
-        }
-    ],
-    "motogp_standings": [
-        {
-            "pos": "1",
-            "driver": "Marc Marquez",
-            "points": "185",
-            "team": "Gresini Racing"
-        },
-        {
-            "pos": "2",
-            "driver": "Francesco Bagnaia",
-            "points": "180",
-            "team": "Ducati Lenovo Team"
-        },
-        {
-            "pos": "3",
-            "driver": "Jorge Martin",
-            "points": "165",
-            "team": "Pramac Yamaha"
-        },
-        {
-            "pos": "4",
-            "driver": "Enea Bastianini",
-            "points": "142",
-            "team": "Ducati Lenovo Team"
-        },
-        {
-            "pos": "5",
-            "driver": "Pedro Acosta",
-            "points": "110",
-            "team": "Red Bull KTM Factory"
-        }
-    ],
-    "wec_standings": [
-        {
-            "pos": "1",
-            "driver": "K. Kobayashi / N. de Vries",
-            "points": "115",
-            "team": "Toyota Gazoo Racing"
-        },
-        {
-            "pos": "2",
-            "driver": "L. Vanthoor / K. Estre",
-            "points": "112",
-            "team": "Porsche Penske"
-        },
-        {
-            "pos": "3",
-            "driver": "A. Pier Guidi / A. Giovinazzi",
-            "points": "98",
-            "team": "Ferrari AF Corse"
-        },
-        {
-            "pos": "4",
-            "driver": "Oliver Rasmussen / Phil Hanson",
-            "points": "84",
-            "team": "Hertz Team JOTA"
-        }
-    ],
+    "f1_standings": [],
+    "motogp_standings": [],
+    "wec_standings": [],
     "news": [
         {
             "title": "Audi calls for F1 ADUO rethink amid exploit fears",
@@ -195,5 +78,6 @@
             "link": "https://www.autosport.com/f1/news/carlos-sainz-handed-unprecedented-penalty-after-f1-british-gp/10836835/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
         }
-    ]
+    ],
+    "last_updated": "2026-07-10 11:11:54"
 }
