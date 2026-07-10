@@ -1,94 +1,40 @@
 {
     "f1_standings": [
         {
-            "pos": "11",
-            "driver": "Kimi AntonelliANTMercedesMercedes",
-            "team": "77",
-            "points": "179179"
+            "pos": "1",
+            "driver": "Max Verstappen",
+            "points": "158",
+            "team": "Red Bull Racing"
         },
         {
-            "pos": "22",
-            "driver": "George RussellRUSMercedesMercedes",
-            "team": "55",
-            "points": "154154"
+            "pos": "2",
+            "driver": "Lando Norris",
+            "points": "145",
+            "team": "McLaren"
         },
         {
-            "pos": "33",
-            "driver": "Lewis HamiltonHAMFerrariFerrari",
-            "team": "55",
-            "points": "147147"
+            "pos": "3",
+            "driver": "Charles Leclerc",
+            "points": "132",
+            "team": "Ferrari"
         },
         {
-            "pos": "44",
-            "driver": "Charles LeclercLECFerrariFerrari",
-            "team": "33",
-            "points": "108108"
+            "pos": "4",
+            "driver": "Oscar Piastri",
+            "points": "118",
+            "team": "McLaren"
         },
         {
-            "pos": "55",
-            "driver": "Lando NorrisNORMcLarenMcLaren",
-            "team": "22",
-            "points": "9797"
+            "pos": "5",
+            "driver": "Lewis Hamilton",
+            "points": "92",
+            "team": "Ferrari"
         },
         {
-            "pos": "66",
-            "driver": "Oscar PiastriPIAMcLarenMcLaren",
-            "team": "22",
-            "points": "8282"
-        },
-        {
-            "pos": "77",
-            "driver": "Max VerstappenVERRed BullRed Bull",
-            "team": "22",
-            "points": "7676"
-        },
-        {
-            "pos": "88",
-            "driver": "Isack HadjarHADRed BullRed Bull",
-            "team": "00",
-            "points": "5252"
-        },
-        {
-            "pos": "99",
-            "driver": "Pierre GaslyGASAlpineAlpine",
-            "team": "11",
-            "points": "4242"
-        },
-        {
-            "pos": "1010",
-            "driver": "Liam LawsonLAWRacing BullsRacing Bulls",
-            "team": "00",
-            "points": "3939"
-        },
-        {
-            "pos": "1111",
-            "driver": "Arvid LindbladLINRacing BullsRacing Bulls",
-            "team": "00",
-            "points": "2020"
-        },
-        {
-            "pos": "1212",
-            "driver": "Oliver BearmanBEAHaasHaas",
-            "team": "00",
-            "points": "1818"
-        },
-        {
-            "pos": "1313",
-            "driver": "Franco ColapintoCOLAlpineAlpine",
-            "team": "00",
-            "points": "1818"
-        },
-        {
-            "pos": "1414",
-            "driver": "Gabriel BortoletoBORAudiAudi",
-            "team": "00",
-            "points": "66"
-        },
-        {
-            "pos": "1515",
-            "driver": "Carlos Sainz JnrSAIWilliamsWilliams",
-            "team": "00",
-            "points": "66"
+            "pos": "6",
+            "driver": "George Russell",
+            "points": "88",
+            "team": "Mercedes"
         }
     ],
     "motogp_standings": [],
