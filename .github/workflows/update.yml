@@ -2,8 +2,8 @@ name: Daily Racing Data Update
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天台北時間 08:00 自動執行
-  workflow_dispatch: # 允許手動強制更新
+    - cron: '0 22 * * *' # 每天 UTC 22:00 (即台北時間早上 06:00) 自動執行
+  workflow_dispatch:
 
 jobs:
   update-data:
