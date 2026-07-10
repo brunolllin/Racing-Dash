@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>賽車數據中心</title>
+    <style>
+        body { font-family: sans-serif; background: #1a1a1a; color: #fff; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
+        th, td { padding: 10px; border-bottom: 1px solid #444; text-align: left; }
+        th { background: #e10600; }
+        a { color: #ff4500; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>F1 / MotoGP / WEC 每日情報</h1>
+        
+        <h2>F1 車手積分榜</h2>
+        <table>
+            <thead>
+                <tr><th>名次</th><th>車手</th><th>車隊</th><th>積分</th></tr>
+            </thead>
+            <tbody id="f1-table"></tbody>
+        </table>
+
+        <h2>最新賽車新聞</h2>
+        <ul id="news-list"></ul>
+    </div>
+
+    <script>
+        // 讀取由 Python 自動產生的 data.json
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => {
+                // 渲染積分榜
+                const table = document.getElementById('f1-table');
+                data.f1_standings.forEach(d => {
+                    table.innerHTML += `<tr><td>${d.pos}</td><td>${d.driver}</td><td>${d.team}</td><td>${d.points}</td></tr>`;
+                });
+
+                // 渲染新聞
+                const newsList = document.getElementById('news-list');
+                data.news.forEach(item => {
+                    newsList.innerHTML += `<li><a href="${item.link}" target="_blank">${item.title}</a></li>`;
+                });
+            });
+    </script>
+</body>
+</html>
