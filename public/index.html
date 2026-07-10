@@ -3,47 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>賽車數據中心</title>
+    <title>三大賽事數據情報站</title>
     <style>
-        body { font-family: sans-serif; background: #1a1a1a; color: #fff; padding: 20px; }
-        .container { max-width: 800px; margin: 0 auto; }
-        table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
-        th, td { padding: 10px; border-bottom: 1px solid #444; text-align: left; }
-        th { background: #e10600; }
-        a { color: #ff4500; text-decoration: none; }
+        body { font-family: -apple-system, sans-serif; background: #121212; color: #fff; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { text-align: center; color: #ff4500; margin-bottom: 30px; }
+        
+        /* 頁籤樣式 */
+        .tabs { display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 2px solid #333; padding-bottom: 10px; }
+        .tab-btn { background: #222; color: #aaa; border: none; padding: 10px 20px; cursor: pointer; font-size: 16px; border-radius: 5px; font-weight: bold; }
+        .tab-btn.active { background: #e10600; color: #fff; }
+        
+        /* 表格與列表 */
+        .content-panel { display: none; }
+        .content-panel.active { display: block; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; background: #1e1e1e; border-radius: 8px; overflow: hidden; }
+        th, td { padding: 12px 15px; border-bottom: 1px solid #333; text-align: left; }
+        th { background: #2a2a2a; color: #ff4500; }
+        
+        /* 新聞標籤 */
+        .news-item { margin-bottom: 12px; font-size: 16px; list-style: none; padding: 5px 0; }
+        .badge { padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; margin-right: 10px; }
+        .badge.F1 { background: #e10600; color: white; }
+        .badge.MotoGP { background: #009688; color: white; }
+        .badge.WEC { background: #3f51b5; color: white; }
+        .badge.綜合 { background: #757575; color: white; }
+        a { color: #e0e0e0; text-decoration: none; }
+        a:hover { color: #ff4500; }
+        ul { padding-left: 0; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>F1 / MotoGP / WEC 每日情報</h1>
+        <h1>🏁 賽車數據 & 新聞中心</h1>
         
-        <h2>F1 車手積分榜</h2>
-        <table>
-            <thead>
-                <tr><th>名次</th><th>車手</th><th>車隊</th><th>積分</th></tr>
-            </thead>
-            <tbody id="f1-table"></tbody>
-        </table>
+        <h2>🏆 車手積分榜 (Top 15)</h2>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('f1')">Formula 1</button>
+            <button class="tab-btn" onclick="switchTab('motogp')">MotoGP</button>
+            <button class="tab-btn" onclick="switchTab('wec')">WEC Hypercar</button>
+        </div>
 
-        <h2>最新賽車新聞</h2>
+        <!-- F1 Panel -->
+        <div id="f1" class="content-panel active">
+            <table>
+                <thead><tr><th>名次</th><th>車手</th><th>車隊</th><th>積分</th></tr></thead>
+                <tbody id="f1-table"></tbody>
+            </table>
+        </div>
+
+        <!-- MotoGP Panel -->
+        <div id="motogp" class="content-panel">
+            <table>
+                <thead><tr><th>名次</th><th>車手</th><th>積分</th></tr></thead>
+                <tbody id="motogp-table"></tbody>
+            </table>
+        </div>
+
+        <!-- WEC Panel -->
+        <div id="wec" class="content-panel">
+            <table>
+                <thead><tr><th>名次</th><th>車手</th><th>積分</th></tr></thead>
+                <tbody id="wec-table"></tbody>
+            </table>
+        </div>
+
+        <hr style="border: 1px solid #333; margin: 40px 0;">
+
+        <h2>📰 最新賽車綜合新聞</h2>
         <ul id="news-list"></ul>
     </div>
 
     <script>
-        // 讀取由 Python 自動產生的 data.json
+        function switchTab(series) {
+            document.querySelectorAll('.content-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            
+            document.getElementById(series).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+
         fetch('data.json')
             .then(res => res.json())
             .then(data => {
-                // 渲染積分榜
-                const table = document.getElementById('f1-table');
+                // F1
+                const f1Table = document.getElementById('f1-table');
                 data.f1_standings.forEach(d => {
-                    table.innerHTML += `<tr><td>${d.pos}</td><td>${d.driver}</td><td>${d.team}</td><td>${d.points}</td></tr>`;
+                    f1Table.innerHTML += `<tr><td>${d.pos}</td><td><b>${d.driver}</b></td><td>${d.team}</td><td>${d.points}</td></tr>`;
                 });
 
-                // 渲染新聞
+                // MotoGP
+                const motogpTable = document.getElementById('motogp-table');
+                data.motogp_standings.forEach(d => {
+                    motogpTable.innerHTML += `<tr><td>${d.pos}</td><td><b>${d.driver}</b></td><td>${d.points}</td></tr>`;
+                });
+
+                // WEC
+                const wecTable = document.getElementById('wec-table');
+                data.wec_standings.forEach(d => {
+                    wecTable.innerHTML += `<tr><td>${d.pos}</td><td><b>${d.driver}</b></td><td>${d.points}</td></tr>`;
+                });
+
+                // 新聞列表
                 const newsList = document.getElementById('news-list');
                 data.news.forEach(item => {
-                    newsList.innerHTML += `<li><a href="${item.link}" target="_blank">${item.title}</a></li>`;
+                    newsList.innerHTML += `
+                        <li class="news-item">
+                            <span class="badge ${item.category}">${item.category}</span>
+                            <a href="${item.link}" target="_blank">${item.title}</a>
+                        </li>`;
                 });
             });
     </script>
