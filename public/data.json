@@ -1,76 +1,7 @@
 {
-    "f1_standings": [
-        {
-            "pos": "1",
-            "driver": "Max Verstappen",
-            "points": "158",
-            "team": "Red Bull Racing"
-        },
-        {
-            "pos": "2",
-            "driver": "Lando Norris",
-            "points": "145",
-            "team": "McLaren"
-        },
-        {
-            "pos": "3",
-            "driver": "Charles Leclerc",
-            "points": "132",
-            "team": "Ferrari"
-        },
-        {
-            "pos": "4",
-            "driver": "Oscar Piastri",
-            "points": "118",
-            "team": "McLaren"
-        },
-        {
-            "pos": "5",
-            "driver": "Lewis Hamilton",
-            "points": "92",
-            "team": "Ferrari"
-        }
-    ],
-    "motogp_standings": [
-        {
-            "pos": "1",
-            "driver": "Marc Marquez",
-            "points": "185",
-            "team": "Gresini Racing"
-        },
-        {
-            "pos": "2",
-            "driver": "Francesco Bagnaia",
-            "points": "180",
-            "team": "Ducati Lenovo Team"
-        },
-        {
-            "pos": "3",
-            "driver": "Jorge Martin",
-            "points": "165",
-            "team": "Pramac Yamaha"
-        }
-    ],
-    "wec_standings": [
-        {
-            "pos": "1",
-            "driver": "K. Kobayashi / N. de Vries",
-            "points": "115",
-            "team": "Toyota Gazoo Racing"
-        },
-        {
-            "pos": "2",
-            "driver": "L. Vanthoor / K. Estre",
-            "points": "112",
-            "team": "Porsche Penske Motorsport"
-        },
-        {
-            "pos": "3",
-            "driver": "A. Pier Guidi / A. Giovinazzi",
-            "points": "98",
-            "team": "Ferrari AF Corse"
-        }
-    ],
+    "f1_standings": [],
+    "motogp_standings": [],
+    "wec_standings": [],
     "news": [
         {
             "title": "F1 drivers and cars at the 2026 Goodwood Festival of Speed",
@@ -148,5 +79,5 @@
             "category": "F1"
         }
     ],
-    "last_updated": "2026-07-10 11:28:41"
+    "last_updated": "2026-07-10 11:30:32"
 }
