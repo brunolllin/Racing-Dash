@@ -4,6 +4,21 @@
     "wec_standings": [],
     "news": [
         {
+            "title": "Mercedes explains \"out of phase\" developments compared with other F1 teams",
+            "link": "https://www.autosport.com/f1/news/why-mercedes-finds-other-f1-teams-upgrades-scary-with-its-out-of-phase-plan/10846296/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "FIA lifts sanctions on Russian, Belarusian drivers",
+            "link": "https://www.autosport.com/general/news/fia-lifts-sanctions-on-russian-belarusian-drivers/10846260/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "McNish outlines the lessons he learned from Senna and brought to Audi",
+            "link": "https://www.autosport.com/f1/news/interview-the-life-and-racing-lessons-allan-mcnish-learned-from-ayrton-senna-and-audi/10846255/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
             "title": "Why Cadillac has decided to act now and replace Lowdon with Budkowski",
             "link": "https://www.autosport.com/f1/news/why-cadillac-has-decided-to-act-now-and-replace-lowdon-with-budkowski/10846037/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "綜合"
@@ -62,22 +77,7 @@
             "title": "Should the algorithms in F1 power units be banned? FIA explains why it won’t work",
             "link": "https://www.autosport.com/f1/news/why-fia-will-not-ban-the-f1-power-unit-algorithms/10844414/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
-        },
-        {
-            "title": "Mercedes \"closely monitoring\" upgrades for the rest of F1 2026",
-            "link": "https://www.autosport.com/f1/news/mercedes-closely-monitoring-upgrades-for-the-rest-of-f1-2026/10844347/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "Why Honda only realised the scale of its F1 problems in January",
-            "link": "https://www.autosport.com/f1/news/why-honda-only-realised-scale-of-f1-problems-in-january/10844237/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "Why McLaren has been coy about introducing its rotating F1 rear wing",
-            "link": "https://www.autosport.com/f1/news/why-mclaren-has-been-coy-about-introducing-its-rotating-f1-rear-wing/10844006/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
         }
     ],
-    "last_updated": "2026-08-13 22:42:26"
+    "last_updated": "2026-08-14 22:23:27"
 }
