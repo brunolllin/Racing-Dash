@@ -4,12 +4,37 @@
     "wec_standings": [],
     "news": [
         {
+            "title": "Marquez explains why he told injured Hadjar to miss Dutch GP",
+            "link": "https://www.autosport.com/motogp/news/marc-marquez-explains-why-he-told-injured-isack-hadjar-to-miss-dutch-gp/10849872/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "Why McLaren thinks Norris is even better now than his F1 title-winning year",
+            "link": "https://www.autosport.com/f1/news/why-mclaren-thinks-norris-is-even-better-now-than-his-f1-title-winning-year/10849744/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "Alpine completes F1 2027 line-up with Colapinto renewal",
+            "link": "https://www.autosport.com/f1/news/alpine-completes-f1-2027-lineup-with-colapinto-renewal/10849524/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "Why Gasly’s Monaco case is so complex – and why the outcome could take weeks",
+            "link": "https://www.autosport.com/f1/news/why-pierre-gaslys-monaco-case-is-so-complex-and-why-the-outcome-could-take-weeks/10849761/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "Why Red Bull has F1's top-ranked engine, and what it reveals about ADUO",
+            "link": "https://www.autosport.com/f1/news/why-red-bull-has-f1s-top-ranked-engine-and-what-it-reveals-about-aduo/10849694/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
             "title": "Red Bull officially named F1's best engine as FIA makes ADUO results public",
             "link": "https://www.autosport.com/f1/news/fia-makes-aduo-results-public/10849601/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
         },
         {
-            "title": "McLaren denies Mercedes claim it cannot afford aggressive upgrades in F1 2026",
+            "title": "McLaren rejects Mercedes claim it cannot afford aggressive upgrades in F1 2026",
             "link": "https://www.autosport.com/f1/news/mclaren-denies-mercedes-f1-2026-upgrades-claim/10849559/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
         },
@@ -52,32 +77,7 @@
             "title": "FIA explains safety car formation lap after F1 driver criticism at Dutch GP",
             "link": "https://www.autosport.com/f1/news/it-made-no-sense-f1-drivers-question-safety-car-formation-lap-after-early-dutch-gp-chaos/10848760/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
-        },
-        {
-            "title": "Hamilton explains Dutch GP radio outburst over Ferrari team orders",
-            "link": "https://www.autosport.com/f1/news/lewis-hamilton-explains-dutch-gp-radio-outburst-over-team-orders/10848705/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "What caused Verstappen’s F1 Dutch GP crash",
-            "link": "https://www.autosport.com/f1/news/what-caused-verstappens-f1-dutch-gp-crash/10848642/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "F1 Dutch GP: Norris overhauls Antonelli for victory, Verstappen suffers heavy crash",
-            "link": "https://www.autosport.com/f1/news/f1-dutch-gp-norris-overhauls-antonelli-for-victory-verstappen-suffers-heavy-crash/10848612/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "F1 Dutch GP red-flagged after Verstappen crash",
-            "link": "https://www.autosport.com/f1/news/dutch-f1-grand-prix-red-flagged-after-huge-max-verstappen-crash/10848603/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "Wolff jokes that Mercedes already has Verstappen for the \"real hero races\"",
-            "link": "https://www.autosport.com/f1/news/toto-wolff-jokes-about-max-verstappens-red-bull-deal-mercedes-has-him-for-the-real-hero-races/10848497/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
         }
     ],
-    "last_updated": "2026-08-27 02:58:39"
+    "last_updated": "2026-08-28 05:59:11"
 }
