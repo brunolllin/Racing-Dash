@@ -4,6 +4,16 @@
     "wec_standings": [],
     "news": [
         {
+            "title": "Ferrari to deliver upgraded F1 engine at Italian GP",
+            "link": "https://www.autosport.com/f1/news/ferrari-to-deliver-upgraded-f1-engine-at-italian-gp/10850147/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "Ukraine files complaint to FIA ethics committee after Russian ban lift",
+            "link": "https://www.autosport.com/general/news/ukraine-files-complaint-to-fia-ethics-committee-after-russian-ban-lift/10850119/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
             "title": "Marquez explains why he told injured Hadjar to miss Dutch GP",
             "link": "https://www.autosport.com/motogp/news/marc-marquez-explains-why-he-told-injured-isack-hadjar-to-miss-dutch-gp/10849872/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "綜合"
@@ -67,17 +77,7 @@
             "title": "Antonelli set for Italian GP grid penalty",
             "link": "https://www.autosport.com/f1/news/antonelli-set-for-italian-gp-grid-penalty/10848914/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "綜合"
-        },
-        {
-            "title": "What makes Norris say “I don't have a car to fight for the championship”?",
-            "link": "https://www.autosport.com/f1/news/what-makes-norris-say-i-dont-have-a-car-to-fight-for-the-championship/10848773/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "FIA explains safety car formation lap after F1 driver criticism at Dutch GP",
-            "link": "https://www.autosport.com/f1/news/it-made-no-sense-f1-drivers-question-safety-car-formation-lap-after-early-dutch-gp-chaos/10848760/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
         }
     ],
-    "last_updated": "2026-08-28 05:59:11"
+    "last_updated": "2026-08-29 03:32:55"
 }
