@@ -4,6 +4,21 @@
     "wec_standings": [],
     "news": [
         {
+            "title": "Former Mercedes F1 tech chief Elliott joins Alpine as CTO",
+            "link": "https://www.autosport.com/f1/news/mike-elliott-joins-alpine-f1/10856497/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "Tsunoda's in-depth look at why he failed to master Red Bull’s F1 car in 2025",
+            "link": "https://www.autosport.com/f1/news/tsunoda-on-poor-f1-2025/10856471/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "Autosport magazine: Antonelli and a Can-Am celebration",
+            "link": "https://www.autosport.com/general/news/autosport-magazine-antonelli-and-a-can-am-celebration/10856457/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
             "title": "Bruising F1 2026 will not be the end for Russell - Wolff",
             "link": "https://www.autosport.com/f1/news/bruising-f1-2026-will-not-be-the-end-for-george-russell-toto-wolff/10856371/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
@@ -62,22 +77,7 @@
             "title": "Red Bull defends decision to force Verstappen to give back two positions",
             "link": "https://www.autosport.com/f1/news/red-bull-defends-decision-to-force-verstappen-to-give-back-two-positions/10855497/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "綜合"
-        },
-        {
-            "title": "F1 Spanish GP: Antonelli wins after Norris loses out under VSC",
-            "link": "https://www.autosport.com/f1/news/f1-spanish-gp-antonelli-wins/10855411/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "Verstappen: Victory at Spanish GP to be \"tough\" with lack of overtaking opportunities",
-            "link": "https://www.autosport.com/f1/news/verstappen-pessimistic-for-spanish-gp-win/10855330/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "The impact Madrid's \"six kilometres long\" pitlane will have on Spanish GP strategy",
-            "link": "https://www.autosport.com/f1/news/spanish-gp-strategy-options-in-madrid/10855301/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
         }
     ],
-    "last_updated": "2026-09-17 00:10:21"
+    "last_updated": "2026-09-17 23:56:26"
 }
