@@ -4,6 +4,41 @@
     "wec_standings": [],
     "news": [
         {
+            "title": "Why Malaysia would be the perfect place for F1’s first wet-weather race in 2026",
+            "link": "https://www.autosport.com/f1/news/why-malaysia-would-be-the-best-place-for-f1s-first-wet-weather-race-in-2026/10861397/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "\"The FIA needs to step in\" - Russell's cooling vest comments explained",
+            "link": "https://www.autosport.com/f1/news/whats-actually-going-on-with-george-russells-fia-cooling-vest-complaints/10861569/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "McLaren explains recurring Norris straightline speed issue after Bahrain GP qualifying",
+            "link": "https://www.autosport.com/f1/news/mclaren-explains-recurring-norris-straightline-speed-issue-after-bahrain-gp-qualifying/10861561/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "From \"paper car\" to pole – What changed for Verstappen and Red Bull?",
+            "link": "https://www.autosport.com/f1/news/from-paper-car-to-pole-what-changed-for-verstappen-and-red-bull/10861532/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "Why Mercedes' upgrade is still a \"big question mark\"",
+            "link": "https://www.autosport.com/f1/news/why-mercedes-upgrade-is-still-a-big-question-mark/10861516/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "F1 Bahrain GP in Malaysia: Verstappen dominates for first pole of 2026 from Hamilton",
+            "link": "https://www.autosport.com/f1/news/f1-bahrain-gp-in-malaysia-qualifying-report/10861364/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "F1 Bahrain GP in Malaysia: Antonelli recovers from tough Friday to top FP3",
+            "link": "https://www.autosport.com/f1/news/f1-bahrain-gp-in-malaysia-antonelli-recovers-from-tough-friday-to-top-fp3/10861282/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
             "title": "Why Verstappen’s unusual run plan highlights F1 teams’ biggest challenge in Malaysia",
             "link": "https://www.autosport.com/f1/news/max-verstappens-unusual-run-plan-and-f1-teams-biggest-challenge-in-malaysia-explained/10861106/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
@@ -42,42 +77,7 @@
             "title": "The unpredictability to expect for F1's one-off return to Sepang in 2026",
             "link": "https://www.autosport.com/f1/news/unpredictability-to-expect-for-f1-return-to-sepang-in-2026/10860677/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
-        },
-        {
-            "title": "Why Norris apologised to Colapinto after Baku comments",
-            "link": "https://www.autosport.com/f1/news/why-norris-apologised-to-colapinto/10860658/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "Ocon fighting for his F1 future - but is adamant he deserves to stay",
-            "link": "https://www.autosport.com/f1/news/ocon-fighting-for-f1-future-adamant-he-deserves-to-stay/10860620/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "Hamilton strongly backs Vasseur amid Horner to Ferrari links",
-            "link": "https://www.autosport.com/f1/news/hamilton-strongly-backed-vasseur-amid-horner-to-ferrari-links/10860547/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "Audi confirms plans for new F1 base",
-            "link": "https://www.autosport.com/f1/news/audi-confirms-plans-for-new-f1-base/10860534/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "The reasons behind Alonso renewing F1 contract with Aston Martin",
-            "link": "https://www.autosport.com/f1/news/why-alonso-is-staying-in-f1/10860518/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "Verstappen to make GT3 return at 2026 GT World Challenge Europe finale",
-            "link": "https://www.autosport.com/f1/news/verstappen-to-make-gt3-return/10860497/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "Colapinto still has full support of Alpine and Briatore despite Azerbaijan GP clash",
-            "link": "https://www.autosport.com/f1/news/colapinto-has-support-of-alpine-and-briatore/10860495/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
         }
     ],
-    "last_updated": "2026-10-03 00:58:23"
+    "last_updated": "2026-10-04 00:22:53"
 }
