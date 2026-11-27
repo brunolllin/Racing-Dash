@@ -4,6 +4,41 @@
     "wec_standings": [],
     "news": [
         {
+            "title": "Verstappen to work with new race engineer Tom Hart again at Qatar GP",
+            "link": "https://www.autosport.com/f1/news/verstappen-to-work-with-new-race-engineer-tom-hart-again-at-qatar-gp/10878044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "Hamilton convinced Ferrari will \"figure it out\" following Leclerc skirmish",
+            "link": "https://www.autosport.com/f1/news/hamilton-convinced-ferrari-will-figure-it-out/10877979/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "Leclerc furious with integrity being questioned after Hamilton clashes",
+            "link": "https://www.autosport.com/f1/news/leclerc-furious-with-integrity-being-questioned-after-hamilton-clashes/10877960/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "Russell stands by Verstappen comments at Las Vegas GP - despite \"amusing\" reaction",
+            "link": "https://www.autosport.com/f1/news/russell-defends-las-vegas-f1-comments/10877940/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "F1 2027 grid: Who will be racing and where?",
+            "link": "https://www.autosport.com/f1/news/f1-2027-grid-who-will-be-racing-and-where/10847600/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "Alonso to not let his age determine F1 retirement",
+            "link": "https://www.autosport.com/f1/news/alonso-to-not-let-age-determine-f1-retirement/10877846/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "Haas finally announces Bearman for F1 2027",
+            "link": "https://www.autosport.com/f1/news/haas-announce-bearman-f1-2027/10877815/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
             "title": "Williams breaches F1 2025 cost cap, Alpine guilty of procedural violation",
             "link": "https://www.autosport.com/f1/news/williams-breaches-2025-f1-cost-cap-reveals-penalty/10877744/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
@@ -24,11 +59,6 @@
             "category": "綜合"
         },
         {
-            "title": "F1 2027 grid: Who will be racing and where?",
-            "link": "https://www.autosport.com/f1/news/f1-2027-grid-who-will-be-racing-and-where/10847600/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
             "title": "Was the Las Vegas GP best race of the year - or too fake?",
             "link": "https://www.autosport.com/f1/news/was-the-las-vegas-gp-best-race-of-the-year-or-too-fake/10877213/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "綜合"
@@ -47,37 +77,7 @@
             "title": "Why Bearman’s expected 2027 Haas F1 deal remains unsigned",
             "link": "https://www.autosport.com/f1/news/why-bearmans-expected-2027-haas-f1-deal-remains-unsigned/10877066/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
-        },
-        {
-            "title": "F1 plans two-team engine supply limit under 2030 V8 rules",
-            "link": "https://www.autosport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "Camara to finish F1 season with Haas, ending F2 title bid",
-            "link": "https://www.autosport.com/f1/news/haas-keeps-rafael-camara-in-f1-ending-his-2026-f2-title-bid/10877044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "Hadjar penalised after backing up Russell in Las Vegas GP, Perez given grid drop for Qatar GP",
-            "link": "https://www.autosport.com/f1/news/hadjar-penalised-after-backing-up-russell-in-las-vegas-gp-perez-given-grid-drop-for-qatar-gp/10876867/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "Vasseur furious with \"unprofessional\" Ferrari clash and demands fresh talks after Las Vegas GP",
-            "link": "https://www.autosport.com/f1/news/vasseur-furious-with-unprofessional-ferrari-clash-and-demands-fresh-talks-after-las-vegas-gp/10876847/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "Verstappen hits back after Russell criticism: “He’s so far below my level”",
-            "link": "https://www.autosport.com/f1/news/max-verstappens-snarky-revenge-on-george-russell-karma-is-a-bitch/10876811/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "“My mistake was to lift” – Why Antonelli lost power in Las Vegas GP victory battle",
-            "link": "https://www.autosport.com/f1/news/my-mistake-was-to-lift-why-antonelli-lost-power-in-las-vegas-gp-victory-battle/10876786/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
         }
     ],
-    "last_updated": "2026-11-26 03:58:19"
+    "last_updated": "2026-11-27 03:57:40"
 }
