@@ -4,6 +4,46 @@
     "wec_standings": [],
     "news": [
         {
+            "title": "F1 Qatar GP: Antonelli remains on top in FP2 stalled by two red flags",
+            "link": "https://www.autosport.com/f1/news/f1-qatar-gp-fp2-report/10878347/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "Audi loses F1 appeal over Tsunoda’s Italian GP restart – here’s why",
+            "link": "https://www.autosport.com/f1/news/audi-appeal-against-yuki-tsunoda-dismissed-heres-why/10878359/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "FIA details F1 engine freeze and imposes testing restrictions ahead of V8 return",
+            "link": "https://www.autosport.com/f1/news/fia-details-f1-engine-freeze-and-imposes-testing-restrictions-ahead-of-v8-return/10878336/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "F1 Qatar GP: Antonelli leads Russell in opening practice",
+            "link": "https://www.autosport.com/f1/news/f1-qatar-gp-fp1-report-10878259/10878259/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "Sainz proposes intriguing DRS solution for F1 2030",
+            "link": "https://www.autosport.com/f1/news/carlos-sainz-explains-his-intriguing-drs-proposal-for-f1-2030/10878170/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "Honda can't find an issue after Fernando Alonso's intriguing \"broken engine\" radio message",
+            "link": "https://www.autosport.com/f1/news/why-fernando-alonso-reported-a-broken-engine-in-las-vegas-but-honda-cant-find-an-issue/10878121/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "綜合"
+        },
+        {
+            "title": "F1 drivers go through quizzical exercise in stewarding debate",
+            "link": "https://www.autosport.com/f1/news/f1-drivers-go-through-quizzical-exercise-in-stewarding-debate/10878073/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
+            "title": "How Rosberg beat Hamilton – and his demons – to clinch F1 world title",
+            "link": "https://www.autosport.com/f1/news/how-nico-rosberg-beat-lewis-hamilton-and-his-demon-to-clinch-f1-world-title/10878126/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+            "category": "F1"
+        },
+        {
             "title": "Verstappen to work with new race engineer Tom Hart again at Qatar GP",
             "link": "https://www.autosport.com/f1/news/verstappen-to-work-with-new-race-engineer-tom-hart-again-at-qatar-gp/10878044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "綜合"
@@ -37,47 +77,7 @@
             "title": "Haas finally announces Bearman for F1 2027",
             "link": "https://www.autosport.com/f1/news/haas-announce-bearman-f1-2027/10877815/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
             "category": "F1"
-        },
-        {
-            "title": "Williams breaches F1 2025 cost cap, Alpine guilty of procedural violation",
-            "link": "https://www.autosport.com/f1/news/williams-breaches-2025-f1-cost-cap-reveals-penalty/10877744/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "Alonso: “We can't be competitive with the power unit we have”",
-            "link": "https://www.autosport.com/f1/news/fernando-alonso-we-cant-be-competitive-with-the-power-unit-we-have/10877607/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "What's next for Herta after F1 2027 snub?",
-            "link": "https://www.autosport.com/f1/news/whats-next-for-herta-after-f1-2027-snub/10877533/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
-        },
-        {
-            "title": "Max Verstappen considering 2027 Daytona 24 Hours entry",
-            "link": "https://www.autosport.com/f1/news/max-verstappen-reveals-he-is-considering-2027-daytona-24-hours-entry/10877159/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "Was the Las Vegas GP best race of the year - or too fake?",
-            "link": "https://www.autosport.com/f1/news/was-the-las-vegas-gp-best-race-of-the-year-or-too-fake/10877213/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "Why Ferrari believes written rules won't help manage Leclerc and Hamilton",
-            "link": "https://www.autosport.com/f1/news/why-ferrari-believes-written-rules-wont-help-manage-leclerc-and-hamilton/10877158/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "Herta replaced at Hitech to end F2 season early",
-            "link": "https://www.autosport.com/formula2/news/colton-herta-replaced-at-hitech-to-end-poor-f2-season-early/10877140/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "綜合"
-        },
-        {
-            "title": "Why Bearman’s expected 2027 Haas F1 deal remains unsigned",
-            "link": "https://www.autosport.com/f1/news/why-bearmans-expected-2027-haas-f1-deal-remains-unsigned/10877066/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-            "category": "F1"
         }
     ],
-    "last_updated": "2026-11-27 03:57:40"
+    "last_updated": "2026-11-28 03:44:57"
 }
